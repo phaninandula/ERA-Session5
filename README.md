@@ -12,6 +12,8 @@ Make the whole code run again.
 
 Upload the code with the 3 files + README.md file (total 4 files) to GitHub. README.md (look at the spelling) must have details about this code and how to read your code (what file does what). Heavy negative scores for not formatting your markdown file into p, H1, H2, list, etc.
 
+## Solution
+
 ### Overall code details
 Code consists of 11 Blocks - their use and to which file these codes goes are mentioned below.
 
