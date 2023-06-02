@@ -38,7 +38,6 @@ def GetCorrectPredCount(pPrediction, pLabels):
 
 def train(model, device, train_loader, optimizer, criterion): #,train_losses,train_acc):
 
-############### CODE BLOCK 9 #################################################
   model.train()
   pbar = tqdm(train_loader)
 
@@ -72,13 +71,7 @@ def train(model, device, train_loader, optimizer, criterion): #,train_losses,tra
   train_losses = train_loss/len(train_loader)
   return train_losses, train_acc
 
-def test(model, device, test_loader, criterion): #, test_losses,test_acc):
-  ############### CODE BLOCK 8 ##################################################
-# Data to plot accuracy and loss graphs
-    test_losses = []
-    test_acc = []
-    test_incorrect_pred = {'images': [], 'ground_truths': [], 'predicted_vals': []}
-    
+def test(model, device, test_loader, criterion): #, test_losses,test_acc):   
     model.eval()
 
     test_loss = 0
